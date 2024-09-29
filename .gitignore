@@ -1,0 +1,47 @@
+# Node modules for both client and server
+client/node_modules/
+server/node_modules/
+
+# Logs
+client/logs
+server/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+client/.env
+server/.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vite and build output (for frontend)
+client/dist/
+client/.vite/
+
+# Tailwind CSS build artifacts (if any)
+client/*.css.map
+client/*.css
+
+# eslint cache
+client/.eslintcache
+
+# Dependency directories
+node_modules/
+
+# Miscellaneous
+client/.DS_Store
+server/.DS_Store
+
+# Optional npm cache directory
+client/.npm
+server/.npm
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
